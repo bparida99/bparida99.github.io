@@ -3,69 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biswojit Parida - Full Stack Developer</title>
+    <title>Biswojit Parida - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container header-container">
             <h1>Biswojit Parida</h1>
-            <p><a href="mailto:biswojit.parida14@outlook.com">biswojit.parida14@outlook.com</a> | 9938864907 | Kolkata, India</p>
-        </header>
+            <p class="title">Full Stack Java Developer</p>
+            <nav class="navbar">
+                <button class="nav-button" onclick="showSection('about')">About</button>
+                <button class="nav-button" onclick="showSection('experience')">Experience</button>
+                <button class="nav-button" onclick="showSection('skills')">Technical Skills</button>
+                <button class="nav-button" onclick="showSection('education')">Education</button>
+                <button class="nav-button" onclick="showSection('certifications')">Certifications</button>
+                <button class="nav-button" onclick="showSection('languages')">Languages</button>
+            </nav>
+        </div>
+    </header>
 
-        <section>
-            <h2>Professional Profile</h2>
-            <p>I am a highly skilled Full-Stack Java Developer with extensive experience in leveraging modern technologies to deliver impactful solutions...</p>
+    <main class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a highly skilled Full-Stack Java Developer with extensive experience in leveraging modern technologies to deliver impactful solutions. My expertise spans Java development, cloud computing with Azure and AWS, and advanced containerization with Docker and Kubernetes. I excel in creating scalable, robust applications and thrive in dynamic environments that value innovation and collaboration. With a strong track record in migrating legacy systems, developing critical features, and optimizing performance, I bring a strategic approach to problem-solving and technical leadership. My background includes hands-on experience with Agile methodologies, CI/CD practices, and a deep understanding of security principles. I am passionate about mentoring teams, driving technical excellence, and contributing to successful project outcomes.</p>
+            <div class="social-links">
+                <a href="https://github.com/bparida99/" target="_blank" class="social-button github-button">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/biswojit99/" target="_blank" class="social-button linkedin-button">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:biswojit.parida14@outlook.com" class="social-button email-button">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
         </section>
 
-        <section>
+        <section id="experience" class="section" style="display: none;">
             <h2>Professional Experience</h2>
-
             <div class="job">
                 <h3>Programmer Analyst</h3>
-                <p><em>Cognizant Technology Solutions - Sep 2022 – Present</em></p>
+                <p class="job-duration">Cognizant Technology Solutions - <span>Sep 2022 – Present</span></p>
                 <ul>
-                    <li>Migrated Legacy Applications: Led modernization of legacy applications with Angular 9, Spring Boot, Docker, and Azure...</li>
-                    <li>Feature Development: Designed and implemented mission-critical features for an enterprise-level insurance application...</li>
-                    <!-- More roles and responsibilities -->
+                    <li>Modernized legacy applications using Angular and Spring Boot.</li>
+                    <li>Collaborated in a cross-functional team to enhance application performance.</li>
                 </ul>
             </div>
-
             <div class="job">
                 <h3>Senior Analyst</h3>
-                <p><em>Capgemini - Feb 2020 – Aug 2022</em></p>
+                <p class="job-duration">Capgemini - <span>Feb 2020 – Aug 2022</span></p>
                 <ul>
-                    <li>Developed and designed crucial features for the automobile application and automated processes.</li>
-                    <!-- More roles and responsibilities -->
+                    <li>Automated CI/CD processes for more efficient workflows.</li>
+                    <li>Designed and developed key features for web applications.</li>
                 </ul>
             </div>
         </section>
 
-        <section>
-            <h2>Technical Skills</h2>
-            <ul class="skills">
-                <li><strong>Programming Languages:</strong> Java</li>
-                <li><strong>Cloud Computing:</strong> Azure, AWS</li>
-                <li><strong>Containerization:</strong> Docker, Kubernetes</li>
-                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Angular, Spring Boot</li>
-                <!-- Additional skills -->
-            </ul>
-        </section>
+        <section id="skills" class="section" style="display: none;">
+    <h2>Technical Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <i class="fab fa-java skill-icon"></i>
+            <h3>Programming Languages</h3>
+            <p>Java</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 90%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-cloud skill-icon"></i>
+            <h3>Cloud Computing</h3>
+            <p>Azure & AWS</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 85%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-cube skill-icon"></i>
+            <h3>Containerization</h3>
+            <p>Docker & Kubernetes</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 80%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript & Angular</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 90%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-database skill-icon"></i>
+            <h3>Database Management</h3>
+            <p>Db2 SQL & MySQL</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 85%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-tools skill-icon"></i>
+            <h3>CI/CD Tools</h3>
+            <p>Jenkins & GitHub Actions</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 80%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-stream skill-icon"></i>
+            <h3>Messaging Systems</h3>
+            <p>Kafka</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 75%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-shield-alt skill-icon"></i>
+            <h3>Security Principles</h3>
+            <p>Spring JWT & Azure AD</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 70%;"></div>
+            </div>
+            <span class="proficiency-label">Knowledgeable</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-laptop-code skill-icon"></i>
+            <h3>Problem Solving Tools</h3>
+            <p>IntelliJ IDEA, Eclipse, STS, VS Code</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 85%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-sync-alt skill-icon"></i>
+            <h3>Software Development Life Cycle (SDLC)</h3>
+            <p>Agile & SCRUM</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 80%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-project-diagram skill-icon"></i>
+            <h3>Management Tools</h3>
+            <p>Jira & Confluence</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 80%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-vial skill-icon"></i>
+            <h3>Testing and Debugging</h3>
+            <p>Unit Testing & Integration Testing</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 75%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-code-branch skill-icon"></i>
+            <h3>Version Control</h3>
+            <p>GIT & GitHub</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 90%;"></div>
+            </div>
+            <span class="proficiency-label">Proficient</span>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-desktop skill-icon"></i>
+            <h3>Operating Systems</h3>
+            <p>Linux & Windows</p>
+            <div class="proficiency-container">
+                <div class="proficiency-fill" style="width: 80%;"></div>
+            </div>
+            <span class="proficiency-label">Comfortable</span>
+        </div>
+    </div>
+</section>
 
-        <section>
+
+
+        <section id="education" class="section" style="display: none;">
             <h2>Education</h2>
             <p><strong>BSc. in IT & Management</strong> - Ravenshaw University, Cuttack, Odisha (Jun 2016 - Jul 2019)</p>
         </section>
 
-        <section>
-            <h2>Languages</h2>
-            <p>English, Hindi, Odia</p>
-        </section>
-
-        <section>
+        <section id="certifications" class="section" style="display: none;">
             <h2>Certifications</h2>
             <p>Microsoft AZ-900</p>
         </section>
-    </div>
+
+        <section id="languages" class="section" style="display: none;">
+            <h2>Languages</h2>
+            <p>English, Hindi, Odia</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Biswojit Parida. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.style.display = section.id === sectionId ? 'block' : 'none';
+            });
+        }
+    </script>
 </body>
 </html>

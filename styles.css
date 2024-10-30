@@ -134,7 +134,7 @@ h2 {
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #4a90e2;
+    background: white;
     color: #fff;
 }
 
@@ -158,3 +158,59 @@ footer {
         width: 100%;
     }
 }
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.experience-card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 45%;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: scale(1.02);
+    background-color: #f0f8ff;
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #4a90e2;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.experience-header i {
+    font-size: 1.5rem;
+    color: #4a90e2;
+}
+
+.job-duration {
+    color: #555;
+    font-style: italic;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.experience-list li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.experience-list i {
+    color: #4a90e2;
+    margin-right: 8px;
+}
+

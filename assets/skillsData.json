@@ -25,7 +25,7 @@
     },
     {
       "skill": "Backend-Framework and architecture",
-      "details": "Springboot rest api, GraphQL & Micro-Service",
+      "details": "Springboot rest api, Spring WebFlux, GraphQL & Micro-Service",
       "proficiency": "Proficient",
       "progress": 90
     },
@@ -97,15 +97,15 @@
     },
     {
       "skill": "AI Development & Integration",
-      "details": "RESTful APIs for AI Model Integration using Spring AI",
-      "proficiency": "Proficient",
-      "progress": 80
+      "details": "Knowledge in designing and implementing RESTful APIs for seamless AI model integration using Spring AI framework",
+      "proficiency": "Knowledgeable",
+      "progress": 60
     },
 	{
       "skill": "LLM",
       "details": "LLaMA-3.2",
-      "proficiency": "Proficient",
-      "progress": 80
+      "proficiency": "Knowledgeable",
+      "progress": 60
     },
     {
       "skill": "AI Tools",

@@ -96,6 +96,18 @@
       "progress": 80
     },
     {
+      "skill": "AI Development & Integration",
+      "details": "RESTful APIs for AI Model Integration using Spring AI",
+      "proficiency": "Proficient",
+      "progress": 80
+    },
+	{
+      "skill": "LLM",
+      "details": "LLaMA-3.2",
+      "proficiency": "Proficient",
+      "progress": 80
+    },
+    {
       "skill": "AI Tools",
       "details": "Github Co-Pilot",
       "proficiency": "Proficient",

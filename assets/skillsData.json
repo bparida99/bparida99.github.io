@@ -25,9 +25,15 @@
     },
     {
       "skill": "Backend-Framework and architecture",
-      "details": "Springboot rest api, Spring WebFlux, GraphQL & Micro-Service",
+      "details": "Springboot rest api, Spring WebFlux & Micro-Service",
       "proficiency": "Proficient",
       "progress": 90
+    },
+	{
+      "skill": "Protocols",
+      "details": "REST, GraphQL, Model Context Protocol",
+      "proficiency": "Proficient",
+      "progress": 70,
     },
     {
       "skill": "Messaging Systems",

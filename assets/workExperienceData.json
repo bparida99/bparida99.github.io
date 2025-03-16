@@ -2,22 +2,24 @@
     {
         "companyName": "Epam System",
         "position": "Software Engineer",
-        "startDate": "6rd Mar 2025",
+        "startDate": "6th Mar 2025",
         "endDate": "Present",
         "enhancements": [
         ]
     },
-	{
+    {
         "companyName": "Cognizant",
         "position": "Programmer Analyst",
         "startDate": "5th Sept 2022",
-        "endDate": "3rd Marc 2025",
+        "endDate": "3rd Mar 2025",
         "enhancements": [
-		    "Migrated legacy applications to modern technologies, including Angular, Spring Boot, Docker, and Azure, enhancing performance, scalability, and maintainability while introducing new features for the insurance sector."
-            "Delivered high-impact features for an insurance application, improving functionality and aligning with industry best practices."
-            "Optimized database architecture using Hibernate and JPA, resulting in improved responsiveness and data integrity." 
-            "Led code reviews, enforced testing standards, and implemented methodologies to streamline development processes." 
-            "Spearheaded ideation and prototyping efforts while mentoring team members to enhance skills and productivity."
+            "Migrated UI application to Angular and backend spring application to spring boot",
+            "Contenerized both UI and backend application applications",
+            "Created CI/CD pipeline",
+            "Moved applications from onpremises server to Azure AKS",
+            "Enhanced and optimized application performance by using reactive programming",
+            "Designed and developed automated solutions for client",
+            "Implemented security using Azure AD"
         ]
     },
     {
@@ -26,12 +28,11 @@
         "startDate": "13th Feb 2020",
         "endDate": "29th Aug 2022",
         "enhancements": [
-		    "Proactively identified and resolved potential bottlenecks in application performance."
-            "Maintained precise and up-to-date documentation of code changes."
-            "Analyzed configuration files and logs to diagnose root causes of issues."
-            "Collaborated in troubleshooting and resolving production issues promptly."
-            "Investigated system problems and implemented solutions to minimize downtime."
-            "Developed code fixes and enhancements for future releases and patches."
+            "Developed and designed crucial features for the automobile application and automated few manual processes",
+            "Participated in pre-development technical design reviews, pair programming, and testing best practices",
+            "Significantly helped the team with enhancing the code standard",
+            "Followed coding best practices",
+            "Automated CI/CD"
         ]
     }
 ]

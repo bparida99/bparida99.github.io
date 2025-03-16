@@ -33,7 +33,7 @@
       "skill": "Protocols",
       "details": "REST, GraphQL, Model Context Protocol",
       "proficiency": "Proficient",
-      "progress": 70,
+      "progress": 80
     },
     {
       "skill": "Messaging Systems",
@@ -63,13 +63,13 @@
       "skill": "UI-Framework",
       "details": "Angular",
       "proficiency": "Knowledgeable",
-      "progress": 60
+      "progress": 70
     },
     {
       "skill": "Web Development",
       "details": "HTML, CSS, JavaScript & Type Script",
       "proficiency": "Knowledgeable",
-      "progress": 60
+      "progress": 70
     },
     {
       "skill": "IDE",
